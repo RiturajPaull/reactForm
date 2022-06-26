@@ -1,0 +1,43 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    /* height: 100px; */
+    background: rgb(245, 4, 4) ;
+}
+.App{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 15rem 0;
+    background: rgba(0, 0, 0,0.5);
+     */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+}
+.App .App1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 0 ;
+    background-color: rgba(0,0,0,0.3);
+    padding: 7rem 10rem;
+    border-radius: 5rem;
+    /* position: relative; */
+}
+
+.App1> input{
+    margin: 2rem;
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 6px;
+    
+}
+
